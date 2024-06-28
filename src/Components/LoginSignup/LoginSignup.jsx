@@ -14,7 +14,7 @@ const LoginSignup = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         const formData = { name, email, password };
-        let url = action === 'Login' ? 'http://localhost/my_project/login.php' : 'http://localhost/my_project/register.php';
+        let url = action === 'Login' ? 'https://ubt-project.vercel.app/login.php' : 'http://https://ubt-project.vercel.app/signup.php';
 
         try {
             const response = await axios.post(url, formData);

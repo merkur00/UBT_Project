@@ -29,7 +29,7 @@ export const Navbar = () => {
             <li> <Link to='campus' smooth={true} offset={-260} duration={500} >Campus</Link> </li>
             <li><Link to='testimonials' smooth={true} offset={-260} duration={500} >Testimonials</Link> </li>
             <li><Link to='contact' smooth={true} offset={-260} duration={500} className='btn'>Contact us</Link></li>
-            <li><a href='http://localhost:5173/login' target='_blank' rel='noopener noreferrer' className='btn'>Login/Signup</a></li>
+            <li><a href='https://ubt-project.vercel.app/login' target='_blank' rel='noopener noreferrer' className='btn'>Login/Signup</a></li>
         </ul>
         <img src={menu_icon} alt='' className='menu-icon' onClick={toggleMenu}/>
     </nav>
